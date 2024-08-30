@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:foodshopapp/features/home/home_screen.dart';
+
+import 'package:foodshopapp/send_email.dart';
 
 void main() {
   runApp(const MyApp());
@@ -12,7 +13,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: HomeScreen(),
+      home: SendEmail(),
     );
   }
 }
